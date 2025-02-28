@@ -20,14 +20,17 @@ int main() {
 
   if(createPhoneNumber(arr1) == "(123) 456-7890") {
     printf("Test 1 Passed\n");
+    fflush(stdout);
   }
 
   if(createPhoneNumber(arr2) == "(089) 311-5550") {
     printf("Test 2 Passed\n");
+    fflush(stdout);
   }
 
   if(createPhoneNumber(arr3) == "(999) 824-3741") {
     printf("Test 3 Passed\n");
+    fflush(stdout);
   }
   
   
